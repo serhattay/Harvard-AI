@@ -60,4 +60,16 @@ env.bak/
 venv.bak/
 
 # macOS metadata files
-.DS_​⬤
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Python IDE and editor-specific files
+# For VSCode:
+.vscode/
+
+# For PyCharm:
+.idea/
+*.iml
