@@ -173,7 +173,7 @@ class NimAI():
             return best_action
 
         else:
-            choices = [best_action, Nim.available_actions(state)]
+            choices = [best_action, random.choice(list(Nim.available_actions(state)))]
             probabilities = [1 - self.epsilon, self.epsilon]
             return random.choices(choices, probabilities, k=1)[0]
 
